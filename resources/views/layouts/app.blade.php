@@ -29,7 +29,6 @@
     </main>
     <!-- Scripts -->
     @viteReactRefresh
-    @vite('resources/js/app.js')
     @yield('footer_scripts')
 </body>
 </html>

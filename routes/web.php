@@ -1,7 +1,12 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+Route::get('/admin', function(){
+    return view('app');
+})->where('any', '.*');
+Route::get('/admin/{any}', function(){
+    return view('app');
+})->where('any', '.*');
 Route::get('/api/home-data', function () {
     return response()->json([
         'features' => [
