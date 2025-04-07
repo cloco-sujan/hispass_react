@@ -1,0 +1,1301 @@
+.coupon_slider_font{
+    font-family: Tahoma;
+    overflow: hidden;
+    height: 4em;
+}
+#jpmap{
+    margin:9% 0;
+    height:400px;
+}
+#jpmap svg a:hover {
+	text-decoration:none;
+}
+#loading{
+    text-align:center;
+}
+#catalog h2{
+	font-size: 1.3em;
+	padding: 20px 0;
+
+}
+#catalog  a{
+	text-decoration:none;
+
+}
+#catalog .area{
+	background-color: #f6d9d9;
+}
+
+
+#catalog .area a{
+	color:#9d3636;
+
+}
+.big_map_box{
+	height: auto;
+}
+.map_frame{
+	height: 100%;
+	width:100%;
+}
+
+.btn-pink{
+	display: inline-block;
+	width:30%;
+}
+
+
+/*area btn*/
+
+
+#search{
+	/*padding:5% 10%;*/
+}
+
+#search h3{
+	text-align: center;
+	font-weight: 600;
+	padding:3%;
+}
+.pink-title{
+	background-color: #f6d9d9;
+    color: #9d3636;
+    border-top: 2px dotted #dd8585;
+    border-left: 2px dotted #dd8585;
+    border-right: 2px dotted #dd8585;
+    border-bottom: 2px solid #dd8585;
+
+}
+.title-icon{
+	float:left;
+
+
+}
+
+#search .Sbtn li{
+	list-style: none;
+	display: table;
+	/*table-layout: fixed;*/
+	margin: 0;
+	padding: 3px 5px 3px;
+	text-align: center;
+}
+
+#search .Sbtn{
+	padding:0;
+	margin: 0;
+}
+.menuToggle{
+	padding: 0;
+	margin:0;
+}
+.menuToggle li{
+	padding: 0;
+	margin:0;
+	list-style: none;
+}
+.pink_area{
+	background-color: #fef6f8;
+	/*border: 2px solid #dd8585;*/
+    background: #f8eef1;
+    color: #2c2c2c;
+    padding-bottom: 3%;
+}
+.pink_area li{
+	/*background-color: #fef6f8;*/
+	background:url('../images-r/btn_pink_bg.jpg');
+	background-size: 100% 100%;
+}
+.pink_area li:hover{
+    background:url('../images-r/btn_pink_bg_selected.jpg');
+    background-size: 100% 100%;
+
+}
+.area-text{
+    white-space: nowrap;
+}
+.pink_area li a .area-text {
+    font-size: 0.7em;
+    margin-top: -3px;
+}
+.pink_area li a .area-count{
+    font-size: 0.6em;
+    /*padding: 5px 0;*/
+    padding-bottom: 3px;
+}
+
+#search a{
+    color:#444444;
+    text-decoration: none;
+    /*display: table-cell;*/
+    vertical-align: middle;
+    height: 40px;
+}
+
+#search div#ui-id-2 {
+	background: #f3e9eb;
+}
+.green-title{
+	background-color: #e2edd4;
+	border-top: 2px dotted #93b16d;
+    border-bottom: 2px dotted #93b16d;
+    border-left: 2px dotted #93b16d;
+    border-right: 2px dotted #93b16d;
+    font-weight: normal;
+    color: #508b24;
+
+}
+.green_area{
+	background-color: #e2edd4;
+    border-top: 2px dotted #93b16d;
+    border-bottom: 2px dotted #93b16d;
+    border-left: 2px dotted #93b16d;
+    border-right: 2px dotted #93b16d;
+    font-weight: normal;
+    color: #508b24;
+    display: table;
+}
+
+.yellow_area li:before{
+    content:"";
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.green_area li{
+	/*background: #eef5e6;*/
+    background: url('../images-r/btn_city_bg.jpg');
+    background-size: 100% 100%;
+
+}
+.green_area li:hover{
+    background:url('../images-r/btn_city_bg_selected.jpg');
+    background-size: 100% 100%;
+
+}
+#search div#ui-id-4 {
+	background-color: #edf4e4;
+}
+
+#search ul li .btn-area {
+	height: 66px;
+	display: table-cell;
+	vertical-align:middle;
+}
+
+#search ul li .btn-name-area {
+	height: 25px;
+}
+#search ul li .btn-count-area {
+	height: 20px;
+	font-size: 0.8em;
+	color: #444444;
+}
+
+.yellow-title{
+	background-color: #f0e4c8;
+	color:#ae7b00;
+	border-top: 2px dotted #ae7b00;
+    border-bottom: 2px dotted #ae7b00;
+    border-left: 2px dotted #ae7b00;
+    border-right: 2px dotted #ae7b00;
+
+}
+.yellow_area li{
+	background: url('../images-r/btn_airport_bg.jpg');
+	background-size: 100% 100%;
+    height: 66px;
+    vertical-align: middle;
+}
+.yellow_area li:hover{
+    background: url('../images-r/btn_airport_bg_selected.jpg');
+    background-size: 100% 100%;
+}
+#search div#ui-id-6 {
+    background: #f3f1eb;
+}
+
+.purple-title{
+	background-color: #f1d8f5;
+	color:#9444a1;
+	border-top: 2px dotted #9444a1;
+    border-bottom: 2px dotted #9444a1;
+    border-left: 2px dotted #9444a1;
+    border-right: 2px dotted #9444a1;
+    background: #fcebff
+
+}
+.purple_area li{
+	background: url('../images-r/btn_oversea_bg.jpg');
+	background-size: 100% 100%;
+	/*padding: 5% 0px !important;*/
+}
+.purple_area li:hover{
+    background: url('../images-r/btn_oversea_bg_selected.jpg');
+    background-size: 100% 100%;
+}
+
+#search .purple_area a{
+    height: 28px;
+}
+
+#search div#ui-id-8 {
+    background: #f7e9f9;
+}
+
+
+/*recommad coupon*/
+
+
+#masthead-sub-coupon-recommend{
+	/*width:600px;
+	height:400px;*/
+}
+
+.main-map {
+    height: auto;
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+    height: 0;
+     overflow: visible;
+    text-align: left;
+    -webkit-overflow-scrolling: touch;
+    -moz-overflow-scrolling: touch;
+}
+
+iframe, object, embed {
+        max-width: 100% !important;
+}
+
+.main-map iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /*top: 50px;*/
+	left: 0;
+}
+
+.recommend-coupon{
+	position: relative;
+	height: auto;
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+    /*height: 0*/;
+     overflow: visible;
+
+}
+
+
+#recommend h5 {
+    font-family:  Verdana, "Arial 窶昴Γ繧､繝ｪ繧ｪ窶�", Meiryo, "窶昴ヲ繝ｩ繧ｮ繝手ｧ偵ざPro W3窶ｳ", "窶扎iragino Kaku Gothic Pro窶�", "窶晢ｼｭ�ｼｳ �ｼｰ繧ｴ繧ｷ繝�繧ｯ窶�", sans-serif;
+    text-align: left;
+    font-size: 1.3em;
+    color: #444444;
+    font-weight: 500;
+    margin-bottom:2%;
+}
+#recommend h1 {
+
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #444444;
+    position: relative;
+    background: #e3e3e3;
+    padding: 1%;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+     margin-bottom:2%;
+
+}
+
+#recommend .expire{
+	color:#db1515;
+	text-align: center;
+	font-weight: 600;
+	font-size: 1.1em;
+    position: relative;
+
+}
+
+#recommend .panel-footer-date-form{
+	background: transparent;
+	margin:0;
+	font-size: 1em;
+}
+#recommend .remaining{
+	border: dotted 2px #e3e3e3;
+    border-radius: 8px;
+    webkit-border-radius:8px;
+	-moz-border-radius: 8px;
+    /*text-align: center;*/
+}
+
+#recommend .remaining_left{
+	border-right: dotted 2px #e3e3e3 ;
+}
+
+#recommend .remaining_right, #recommend .remaining_left{
+	display: inline-block;
+	text-align: center;
+	width:48%;
+}
+
+#recommend .description{
+	margin:8%;
+	margin-top:0;
+	color: #828282;
+	font-size: 1em;
+	width: 85%;
+}
+
+#recommend .coupon_content{
+	font-size: 0.9em;
+}
+
+#recommend .remain_num{
+	color:#db1515;
+	font-size: 1.5em;
+}
+
+#recommend .remain_time{
+	font-size: 1.5em;
+}
+
+#recommend .coupon_detail_button:hover {
+    font-size: 18px;
+    background-color: rgb(168, 0, 0);
+    width: 95%;
+    height: 35px;
+    text-align: center;
+    vertical-align: middle;
+    color: rgb(255, 255, 255);
+    font-family:  Verdana, "Arial 窶昴Γ繧､繝ｪ繧ｪ窶�", Meiryo, "窶昴ヲ繝ｩ繧ｮ繝手ｧ偵ざPro W3窶ｳ", "窶扎iragino Kaku Gothic Pro窶�", "窶晢ｼｭ�ｼｳ �ｼｰ繧ｴ繧ｷ繝�繧ｯ窶�", sans-serif;
+    cursor: pointer;
+}
+#recommend .coupon_detail_button {
+    font-size: 18px;
+    background-color: rgb(238, 20, 20);
+    transition: all 0.2s ease-in;
+    border-radius: 5px;
+    width: 95%;
+    text-align: center;
+    vertical-align: middle;
+    color: rgb(255, 255, 255);
+    font-family:  Verdana, "Arial 窶昴Γ繧､繝ｪ繧ｪ窶�", Meiryo, "窶昴ヲ繝ｩ繧ｮ繝手ｧ偵ざPro W3窶ｳ", "窶扎iragino Kaku Gothic Pro窶�", "窶晢ｼｭ�ｼｳ �ｼｰ繧ｴ繧ｷ繝�繧ｯ窶�", sans-serif;
+    cursor: pointer;
+    line-height: 35px;
+    margin: 0px auto;
+}
+.panel-body-line {
+    width: 100%;
+    border-bottom: solid 5px;
+ }
+
+/*coupon content*/
+#masthead-couponlist .panel-footer-date-form{
+    height: 45px;
+}
+span.soon.remain_time {
+    line-height: 0;
+    display: inline-block;
+    font-size: 1.2em;
+    padding-bottom: 4%;
+    font-weight: 600;
+    width:65%;
+    text-align:center;
+}
+.soon[data-scale='s'] {
+    font-size: 2rem;
+}
+.soon[data-layout*=group] {
+    padding: 1em 0;
+    text-align: center;
+}
+.remain_time {
+    font-size: 1.3em;
+    display: inline-block;
+    margin-top:2%;
+}
+
+.soon-wrapper, .soon-wrapper *, .soon, .soon * {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.soon-wrapper, .soon {
+    display: block;
+    margin: 0;
+    padding: 0;
+    /* line-height: 1.5; */
+    font-size: 40px;
+    font-size: 2.5rem;
+    text-align: center;
+    overflow: hidden;
+}
+html * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: Verdana,Arial,遯ｶ譏ｴﾎ鍋ｹｧ�ｽ､郢晢ｽｪ郢ｧ�ｽｪ遯ｶ�ｿｽMeiryo,遯ｶ譏ｴ繝ｲ郢晢ｽｩ郢ｧ�ｽｮ郢晄焔�ｽｧ蛛ｵ縺鳳ro W3遯ｶ�ｽｳ,遯ｶ謇司ragino Kaku Gothic Pro遯ｶ�ｿｽ遯ｶ譎｢�ｽｼ�ｽｭ�ｿｽ�ｽｳ �ｿｽ�ｽｰ郢ｧ�ｽｴ郢ｧ�ｽｷ郢晢ｿｽ縺醍ｪｶ�ｿｽsans-serif;
+    vertical-align: baseline;
+}
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Inherited from div.coupon_content
+.coupon_content {
+    font-family: Verdana,Arial,遯ｶ譏ｴﾎ鍋ｹｧ�ｽ､郢晢ｽｪ郢ｧ�ｽｪ遯ｶ�ｿｽMeiryo,遯ｶ譏ｴ繝ｲ郢晢ｽｩ郢ｧ�ｽｮ郢晄焔�ｽｧ蛛ｵ縺鳳ro W3遯ｶ�ｽｳ,遯ｶ謇司ragino Kaku Gothic Pro遯ｶ�ｿｽ遯ｶ譎｢�ｽｼ�ｽｭ�ｿｽ�ｽｳ �ｿｽ�ｽｰ郢ｧ�ｽｴ郢ｧ�ｽｷ郢晢ｿｽ縺醍ｪｶ�ｿｽsans-serif;
+    font-size: 1.2em;
+}
+html * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: Verdana,Arial,遯ｶ譏ｴﾎ鍋ｹｧ�ｽ､郢晢ｽｪ郢ｧ�ｽｪ遯ｶ�ｿｽMeiryo,遯ｶ譏ｴ繝ｲ郢晢ｽｩ郢ｧ�ｽｮ郢晄焔�ｽｧ蛛ｵ縺鳳ro W3遯ｶ�ｽｳ,遯ｶ謇司ragino Kaku Gothic Pro遯ｶ�ｿｽ遯ｶ譎｢�ｽｼ�ｽｭ�ｿｽ�ｽｳ �ｿｽ�ｽｰ郢ｧ�ｽｴ郢ｧ�ｽｷ郢晢ｿｽ縺醍ｪｶ�ｿｽsans-serif;
+    vertical-align: baseline;
+}
+Inherited from div.panel-footer-form-up
+.panel-footer-form-up {
+    /* margin: 0 15px; */
+    border-radius: 4px 4px 0 0;
+    border-top-style: dotted;
+    border-left-style: dotted;
+    border-right-style: dotted;
+    border-color: #5f7ba2;
+    background-color: #f4f9ff;
+    border-width: 2px;
+    text-align: center;
+}
+html * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: Verdana,Arial,遯ｶ譏ｴﾎ鍋ｹｧ�ｽ､郢晢ｽｪ郢ｧ�ｽｪ遯ｶ�ｿｽMeiryo,遯ｶ譏ｴ繝ｲ郢晢ｽｩ郢ｧ�ｽｮ郢晄焔�ｽｧ蛛ｵ縺鳳ro W3遯ｶ�ｽｳ,遯ｶ謇司ragino Kaku Gothic Pro遯ｶ�ｿｽ遯ｶ譎｢�ｽｼ�ｽｭ�ｿｽ�ｽｳ �ｿｽ�ｽｰ郢ｧ�ｽｴ郢ｧ�ｽｷ郢晢ｿｽ縺醍ｪｶ�ｿｽsans-serif;
+    vertical-align: baseline;
+}
+Inherited from div.remaining
+html * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: Verdana,Arial,遯ｶ譏ｴﾎ鍋ｹｧ�ｽ､郢晢ｽｪ郢ｧ�ｽｪ遯ｶ�ｿｽMeiryo,遯ｶ譏ｴ繝ｲ郢晢ｽｩ郢ｧ�ｽｮ郢晄焔�ｽｧ蛛ｵ縺鳳ro W3遯ｶ�ｽｳ,遯ｶ謇司ragino Kaku Gothic Pro遯ｶ�ｿｽ遯ｶ譎｢�ｽｼ�ｽｭ�ｿｽ�ｽｳ �ｿｽ�ｽｰ郢ｧ�ｽｴ郢ｧ�ｽｷ郢晢ｿｽ縺醍ｪｶ�ｿｽsans-serif;
+    vertical-align: baseline;
+}
+Inherited from div.panel-footer
+html * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: Verdana,Arial,遯ｶ譏ｴﾎ鍋ｹｧ�ｽ､郢晢ｽｪ郢ｧ�ｽｪ遯ｶ�ｿｽMeiryo,遯ｶ譏ｴ繝ｲ郢晢ｽｩ郢ｧ�ｽｮ郢晄焔�ｽｧ蛛ｵ縺鳳ro W3遯ｶ�ｽｳ,遯ｶ謇司ragino Kaku Gothic Pro遯ｶ�ｿｽ遯ｶ譎｢�ｽｼ�ｽｭ�ｿｽ�ｽｳ �ｿｽ�ｽｰ郢ｧ�ｽｴ郢ｧ�ｽｷ郢晢ｿｽ縺醍ｪｶ�ｿｽsans-serif;
+    vertical-align: baseline;
+}
+Inherited from div.panel.panel-default
+html * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: Verdana,Arial,遯ｶ譏ｴﾎ鍋ｹｧ�ｽ､郢晢ｽｪ郢ｧ�ｽｪ遯ｶ�ｿｽMeiryo,遯ｶ譏ｴ繝ｲ郢晢ｽｩ郢ｧ�ｽｮ郢晄焔�ｽｧ蛛ｵ縺鳳ro W3遯ｶ�ｽｳ,遯ｶ謇司ragino Kaku Gothic Pro遯ｶ�ｿｽ遯ｶ譎｢�ｽｼ�ｽｭ�ｿｽ�ｽｳ �ｿｽ�ｽｰ郢ｧ�ｽｴ郢ｧ�ｽｷ郢晢ｿｽ縺醍ｪｶ�ｿｽsans-serif;
+    vertical-align: baseline;
+}
+Inherited from div.col-md-4.col-sm-6.col-xs-12.coupon-bg
+html * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: Verdana,Arial,遯ｶ譏ｴﾎ鍋ｹｧ�ｽ､郢晢ｽｪ郢ｧ�ｽｪ遯ｶ�ｿｽMeiryo,遯ｶ譏ｴ繝ｲ郢晢ｽｩ郢ｧ�ｽｮ郢晄焔�ｽｧ蛛ｵ縺鳳ro W3遯ｶ�ｽｳ,遯ｶ謇司ragino Kaku Gothic Pro遯ｶ�ｿｽ遯ｶ譎｢�ｽｼ�ｽｭ�ｿｽ�ｽｳ �ｿｽ�ｽｰ郢ｧ�ｽｴ郢ｧ�ｽｷ郢晢ｿｽ縺醍ｪｶ�ｿｽsans-serif;
+    vertical-align: baseline;
+}
+Inherited from div#listTemplates.row-new
+#main > .row-new {
+    padding-top: 10px;
+    font-family: Verdana,Arial,遯ｶ譏ｴﾎ鍋ｹｧ�ｽ､郢晢ｽｪ郢ｧ�ｽｪ遯ｶ�ｿｽMeiryo,遯ｶ譏ｴ繝ｲ郢晢ｽｩ郢ｧ�ｽｮ郢晄焔�ｽｧ蛛ｵ縺鳳ro W3遯ｶ�ｽｳ,遯ｶ謇司ragino Kaku Gothic Pro遯ｶ�ｿｽ遯ｶ譎｢�ｽｼ�ｽｭ�ｿｽ�ｽｳ �ｿｽ�ｽｰ郢ｧ�ｽｴ郢ｧ�ｽｷ郢晢ｿｽ縺醍ｪｶ�ｿｽsans-serif;
+    font-size: 0.95em;
+}
+html * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: Verdana,Arial,遯ｶ譏ｴﾎ鍋ｹｧ�ｽ､郢晢ｽｪ郢ｧ�ｽｪ遯ｶ�ｿｽMeiryo,遯ｶ譏ｴ繝ｲ郢晢ｽｩ郢ｧ�ｽｮ郢晄焔�ｽｧ蛛ｵ縺鳳ro W3遯ｶ�ｽｳ,遯ｶ謇司ragino Kaku Gothic Pro遯ｶ�ｿｽ遯ｶ譎｢�ｽｼ�ｽｭ�ｿｽ�ｽｳ �ｿｽ�ｽｰ郢ｧ�ｽｴ郢ｧ�ｽｷ郢晢ｿｽ縺醍ｪｶ�ｿｽsans-serif;
+    vertical-align: baseline;
+}
+Inherited from div#main.container
+html * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: Verdana,Arial,遯ｶ譏ｴﾎ鍋ｹｧ�ｽ､郢晢ｽｪ郢ｧ�ｽｪ遯ｶ�ｿｽMeiryo,遯ｶ譏ｴ繝ｲ郢晢ｽｩ郢ｧ�ｽｮ郢晄焔�ｽｧ蛛ｵ縺鳳ro W3遯ｶ�ｽｳ,遯ｶ謇司ragino Kaku Gothic Pro遯ｶ�ｿｽ遯ｶ譎｢�ｽｼ�ｽｭ�ｿｽ�ｽｳ �ｿｽ�ｽｰ郢ｧ�ｽｴ郢ｧ�ｽｷ郢晢ｿｽ縺醍ｪｶ�ｿｽsans-serif;
+    vertical-align: baseline;
+}
+Inherited from div#masthead-couponlist
+#masthead-couponlist {
+    font-family: Verdana,Arial,遯ｶ譏ｴﾎ鍋ｹｧ�ｽ､郢晢ｽｪ郢ｧ�ｽｪ遯ｶ�ｿｽMeiryo,遯ｶ譏ｴ繝ｲ郢晢ｽｩ郢ｧ�ｽｮ郢晄焔�ｽｧ蛛ｵ縺鳳ro W3遯ｶ�ｽｳ,遯ｶ謇司ragino Kaku Gothic Pro遯ｶ�ｿｽ遯ｶ譎｢�ｽｼ�ｽｭ�ｿｽ�ｽｳ �ｿｽ�ｽｰ郢ｧ�ｽｴ郢ｧ�ｽｷ郢晢ｿｽ縺醍ｪｶ�ｿｽsans-serif;
+}
+html * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: Verdana,Arial,遯ｶ譏ｴﾎ鍋ｹｧ�ｽ､郢晢ｽｪ郢ｧ�ｽｪ遯ｶ�ｿｽMeiryo,遯ｶ譏ｴ繝ｲ郢晢ｽｩ郢ｧ�ｽｮ郢晄焔�ｽｧ蛛ｵ縺鳳ro W3遯ｶ�ｽｳ,遯ｶ謇司ragino Kaku Gothic Pro遯ｶ�ｿｽ遯ｶ譎｢�ｽｼ�ｽｭ�ｿｽ�ｽｳ �ｿｽ�ｽｰ郢ｧ�ｽｴ郢ｧ�ｽｷ郢晢ｿｽ縺醍ｪｶ�ｿｽsans-serif;
+    vertical-align: baseline;
+}
+Inherited from div#wrap
+html * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: Verdana,Arial,遯ｶ譏ｴﾎ鍋ｹｧ�ｽ､郢晢ｽｪ郢ｧ�ｽｪ遯ｶ�ｿｽMeiryo,遯ｶ譏ｴ繝ｲ郢晢ｽｩ郢ｧ�ｽｮ郢晄焔�ｽｧ蛛ｵ縺鳳ro W3遯ｶ�ｽｳ,遯ｶ謇司ragino Kaku Gothic Pro遯ｶ�ｿｽ遯ｶ譎｢�ｽｼ�ｽｭ�ｿｽ�ｽｳ �ｿｽ�ｽｰ郢ｧ�ｽｴ郢ｧ�ｽｷ郢晢ｿｽ縺醍ｪｶ�ｿｽsans-serif;
+    vertical-align: baseline;
+}
+
+body {
+    font-size: 100%;
+    font-family: Verdana,Arial,遯ｶ譏ｴﾎ鍋ｹｧ�ｽ､郢晢ｽｪ郢ｧ�ｽｪ遯ｶ�ｿｽMeiryo,遯ｶ譏ｴ繝ｲ郢晢ｽｩ郢ｧ�ｽｮ郢晄焔�ｽｧ蛛ｵ縺鳳ro W3遯ｶ�ｽｳ,遯ｶ謇司ragino Kaku Gothic Pro遯ｶ�ｿｽ遯ｶ譎｢�ｽｼ�ｽｭ�ｿｽ�ｽｳ �ｿｽ�ｽｰ郢ｧ�ｽｴ郢ｧ�ｽｷ郢晢ｿｽ縺醍ｪｶ�ｿｽsans-serif;
+    color: #f5f4ed;
+    background-color: #795d6b;
+}
+html * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body {
+    line-height: 1;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: Verdana,Arial,遯ｶ譏ｴﾎ鍋ｹｧ�ｽ､郢晢ｽｪ郢ｧ�ｽｪ遯ｶ�ｿｽMeiryo,遯ｶ譏ｴ繝ｲ郢晢ｽｩ郢ｧ�ｽｮ郢晄焔�ｽｧ蛛ｵ縺鳳ro W3遯ｶ�ｽｳ,遯ｶ謇司ragino Kaku Gothic Pro遯ｶ�ｿｽ遯ｶ譎｢�ｽｼ�ｽｭ�ｿｽ�ｽｳ �ｿｽ�ｽｰ郢ｧ�ｽｴ郢ｧ�ｽｷ郢晢ｿｽ縺醍ｪｶ�ｿｽsans-serif;
+    vertical-align: baseline;
+}
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #333;
+}
+body {
+
+    font-family: Verdana,Arial,遯ｶ譏ｴﾎ鍋ｹｧ�ｽ､郢晢ｽｪ郢ｧ�ｽｪ遯ｶ�ｿｽMeiryo,遯ｶ譏ｴ繝ｲ郢晢ｽｩ郢ｧ�ｽｮ郢晄焔�ｽｧ蛛ｵ縺鳳ro W3遯ｶ�ｽｳ,遯ｶ謇司ragino Kaku Gothic Pro遯ｶ�ｿｽ遯ｶ譎｢�ｽｼ�ｽｭ�ｿｽ�ｽｳ �ｿｽ�ｽｰ郢ｧ�ｽｴ郢ｧ�ｽｷ郢晢ｿｽ縺醍ｪｶ�ｿｽsans-serif ;
+    -webkit-font-smoothing: antialiased;
+    background-color: #dae3e7;
+    color: #434343;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+body {
+    margin: 0;
+    font-family: Verdana,Arial,遯ｶ譏ｴﾎ鍋ｹｧ�ｽ､郢晢ｽｪ郢ｧ�ｽｪ遯ｶ�ｿｽMeiryo,遯ｶ譏ｴ繝ｲ郢晢ｽｩ郢ｧ�ｽｮ郢晄焔�ｽｧ蛛ｵ縺鳳ro W3遯ｶ�ｽｳ,遯ｶ謇司ragino Kaku Gothic Pro遯ｶ�ｿｽ遯ｶ譎｢�ｽｼ�ｽｭ�ｿｽ�ｽｳ �ｿｽ�ｽｰ郢ｧ�ｽｴ郢ｧ�ｽｷ郢晢ｿｽ縺醍ｪｶ�ｿｽsans-serif;
+}
+Inherited from html.js.no-touch.csstransitions.flexbox.flexboxlegacy.canvas.canvastext.webgl.geolocation.postmessage.websqldatabase.indexeddb.hashchange.history.draganddrop.websockets.rgba.hsla.multiplebgs.backgroundsize.borderimage.borderradius.boxshadow.textshadow.opacity.cssanimations.csscolumns.cssgradients.cssreflections.csstransforms.csstransforms3d.fontface.generatedcontent.video.audio.localstorage.sessionstorage.webworkers.applicationcache.svg.inlinesvg.smil.svgclippaths
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: Verdana,Arial,遯ｶ譏ｴﾎ鍋ｹｧ�ｽ､郢晢ｽｪ郢ｧ�ｽｪ遯ｶ�ｿｽMeiryo,遯ｶ譏ｴ繝ｲ郢晢ｽｩ郢ｧ�ｽｮ郢晄焔�ｽｧ蛛ｵ縺鳳ro W3遯ｶ�ｽｳ,遯ｶ謇司ragino Kaku Gothic Pro遯ｶ�ｿｽ遯ｶ譎｢�ｽｼ�ｽｭ�ｿｽ�ｽｳ �ｿｽ�ｽｰ郢ｧ�ｽｴ郢ｧ�ｽｷ郢晢ｿｽ縺醍ｪｶ�ｿｽsans-serif;
+    vertical-align: baseline;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    overflow-x : hidden;
+    overflow-y : scroll;
+    -webkit-overflow-scrolling: touch;
+}
+Pseudo ::before element
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+margin遯ｶ�ｿｽ
+遯ｶ骰孃rder遯ｶ�ｿｽ
+遯ｶ諱･adding21.888
+遯ｶ�ｿｽ81.042 �ｾ�ｿｽ0遯ｶ�ｿｽ
+11.719遯ｶ�ｿｽ
+遯ｶ蛛懶ｿｽ
+遯ｶ�ｿｽ
+Console
+Emulation
+Rendering
+
+
+
+
+Preserve log
+.
+main.js:8 in main js!
+.
+
+
+/*sub index*/
+#sub_index_map{
+    background: #cccbca !important;
+    padding:1%;
+}
+.sub_map{
+    position: relative;
+}
+.map_name{
+    position: absolute;
+    top:0;
+    background: #3e6caa;
+    color:white;
+    font-size: 1em;
+    padding:1%;
+    font-weight: 700;
+    z-index: 2;
+}
+.sub_map_btn{
+    height: 295px;
+}
+.sub_map_btn li{
+
+    /*padding:2%;*/
+    text-align: center;
+    height: 25%;
+    line-height: 4em;
+    position: relative;
+    background: white;
+
+}
+#sub_index_map .btn_image{
+    background: url('../images-r/btn_submap_bg.jpg');
+    background-size: 100% 100%;
+    width: 80%;
+    height: 100%;
+    float: right;
+    margin: 0;
+
+}
+#sub_index_map .btn_image:hover{
+    background: url('../images-r/btn_submap_bgB.jpg');
+    background-size: 100% 100%;
+
+}
+
+/* 荳ｭ繧ｨ繝ｪ繧｢驕ｸ謚樊凾繧ｯ繝ｩ繧ｹ */
+img[usemap] {
+    max-width: 100%;
+    height: auto;
+}
+.nonborder {
+	border: none;
+	outline: none;
+}
+#sub_index_map .map-area-active {
+    background: url('../images-r/btn_submap_bgB.jpg');
+    background-size: 100% 100%;
+}
+
+@media(min-width: 991px){
+	#sub_index_map .map-area-active:before {  /*btn_4*/
+		content: "\A";
+		border-style: solid;
+		border-width: 36.875px 27px 36.875px 0;
+		border-color: transparent #89b2e7 transparent transparent;
+		position: absolute;
+		left: 23px;
+	}
+
+	#sub_index_map .btn_2 li .map-area-active:before{
+		border-width: 73.5px 27px 73.5px 0;
+	}
+	#sub_index_map .btn_3 li .map-area-active:before{
+		border-width: 49.5px 27px 49.5px 0;
+	}
+
+	#sub_index_map .btn_5 li .map-area-active:before{
+		content: "\A";
+		border-style: solid;
+		border-width: 31px 27px 31px 0;
+		border-color: transparent #89b2e7 transparent transparent;
+		position: absolute;
+		left: 23px;
+	}
+	#sub_index_map .btn_6 li .map-area-active:before{
+		border-width: 25px 27px 25px 0;
+
+	}
+	#sub_index_map .btn_7 li .map-area-active:before{
+		content: "\A";
+		border-style: solid;
+		border-width: 21px 27px 21px 0;
+		border-color: transparent #89b2e7 transparent transparent;
+		position: absolute;
+		left: 23px;
+	}
+}
+
+
+
+.sub_map_btn {
+    padding:0;
+}
+
+#sub_index_map .map_left, #sub_index_map .map_right{
+    padding:0;
+     /*display: table-cell;*/
+     height: 295px;
+}
+#sub_index_map .map_right{
+    background:white;
+}
+
+#sub_index_map .btn_text{
+   /*padding:10% 0;*/
+   font-weight: 700;
+
+}
+#sub_index_map .map_pic{
+   background:white;
+
+}
+#sub_index_map .row {
+    margin:0;
+  /*display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;*/
+
+}
+
+
+#sub_index_map .map_pic img{
+    width:100%;
+
+}
+
+#sub_index_map .map_box{
+    border:solid #6a98d9 5px;
+    display:table;
+    /*width: 100%;*/
+}
+
+#sub_index_map .map_box .submap_window .count{
+	font-size: 0.8em;
+	font-weight: normal;
+}
+
+
+@media all and (max-width:768px){
+	#sub_index_map .map_box {
+		display: block;
+	}
+}
+
+.hokkaido_all{
+    /*content: url('../images-r/submap/sub_hokkaido_all.png');*/
+    /*width: 92%;*/
+    position: absolute;
+    top:0;
+    background: white;
+}
+.hokkaido_all img{
+    width: 100%;
+    max-height: 292px;
+}
+
+#menu .main-menu{
+    border-bottom: solid 3px #f6aa00;
+}
+
+.index-google-map{
+    height: 450px;
+    width: 100%;
+}
+
+
+/*sub map pic*/
+.btn_2 li{
+    height:50%;
+    line-height: 9em;
+}
+.btn_3 li{
+    height:33.33%;
+    line-height: 6em;
+}
+.btn_5 li{
+    height: 20%;
+}
+.btn_6 li{
+    height: 16.66%;
+}
+.btn_7 li{
+    height: 14.28%;
+}
+
+
+
+/*sub-index3 google map*/
+#map-coupon{
+    overflow: hidden;
+}
+#map-coupon .coupon-title{
+    font-size: 1.4em;
+    color: #005cd9;
+    margin-bottom: 1%;
+    position: relative;
+    top: -7px;
+}
+#map-coupon .coupon-image{
+    display: inline-block;
+    width: 27%;
+}
+
+#map-coupon .coupon-image img{
+    width: 100%;
+}
+#map-coupon .coupon-content{
+    display:  inline-block;
+    width: 70%;
+    position: relative;
+    top: 0px;
+    padding: 0 0 0 8px;
+}
+#map-coupon .coupon-discount{
+    color: #f6aa00;
+    font-size:  1.2em;
+    margin-bottom: 1%;
+
+}
+#map-coupon .coupon-remain{
+    background: #ebd4cb;
+    padding:1%;
+    text-align: center;
+}
+#map-coupon .coupon-time{
+    display: inline-block;
+    width: 48%;
+    color:#8c0d19 ;
+    font-weight: 600;
+    font-size: 1.2em;
+    border-right: #e2c0b7 solid 1px;
+    padding-right:  4px;
+}
+#map-coupon .coupon-sum{
+    display: inline-block;
+    width:48%;
+
+}
+#map-coupon .remain_num {
+    font-size: 1.2em;
+    color:#8c0d19 ;
+    font-weight: 600;
+}
+#map-coupon .remain-title{
+    color: #646464;
+    font-size: 10px;
+    font-weight: 500;
+}
+#map-coupon .category{
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 2px 0;
+}
+#map-coupon .tag{
+    color:#fff;
+    border-radius:  5px;
+    margin:10px 0;
+}
+#map-coupon .tags{
+    margin: 3px 3px 3px 0;
+    border-radius: 3px;
+    padding:1%;
+
+}
+#map-coupon .tag-none{
+    display: none;
+}
+
+
+
+
+/*btn*/
+.link_path_bg{
+    background-color: #134a95;
+    border-radius:5px;
+    padding:1%;
+    margin: -1% 0 1% 0;
+}
+.link_path{
+    text-align: left;
+    color:#ebe9e4;
+}
+.link_path a{
+    color:#f6aa00;
+    margin: 1% 0;
+}
+
+#sub_index .attention {
+    width: 60%;
+}
+
+/*share btn*/
+.fb-like iframe {
+    max-width: inherit;
+}
+@media (max-width:1200px) and (min-width:768px){
+
+#sequence span.soon.remain_time {
+    width: 31%;
+    padding-bottom:2%;
+}
+.seq {
+    overflow: visible !important;
+}
+.seq .seq-pagination {
+    bottom: -12px;
+}
+
+}
+@media(min-width: 991px){
+.btn_image:hover:before{  /*btn_4*/
+content: "\A";
+border-style: solid;
+border-width: 36.875px 27px 36.875px 0;
+border-color: transparent #89b2e7 transparent transparent;
+position: absolute;
+left: 23px;
+
+}
+.btn_2 li .btn_image:hover:before{
+border-width: 73.5px 27px 73.5px 0;
+}
+.btn_3 li .btn_image:hover:before{
+border-width: 49.5px 27px 49.5px 0;
+}
+.btn_5 li .btn_image:hover:before{
+content: "\A";
+border-style: solid;
+border-width: 31px 27px 31px 0;
+border-color: transparent #89b2e7 transparent transparent;
+position: absolute;
+left: 23px;
+
+}
+.btn_6 li .btn_image:hover:before{
+border-width: 25px 27px 25px 0;
+
+}
+.btn_6 li .btn_image .btn_text{
+    margin: -7px 0;
+}
+.btn_7 li .btn_image .btn_text{
+    margin: -10px 0;
+}
+.btn_7 li .btn_image:hover:before{
+content: "\A";
+border-style: solid;
+border-width: 21px 27px 21px 0;
+border-color: transparent #89b2e7 transparent transparent;
+position: absolute;
+left: 23px;
+
+}
+}
+
+@media(max-width: 992px){
+.sub_map_btn li {
+    width: 25%;
+    display: inline-block;
+    margin-right: -6px;
+}
+.btn_4 .btn_image .btn_text{
+    font-size: 0.9em;
+}
+
+#sub_index_map .btn_image {
+    width: 100%;
+}
+
+.hokkaido_all {
+    position: relative;
+}
+.submap_window{
+    /*overflow-x: scroll;*/
+    overflow-y: hidden;
+    width: 100%;
+}
+.sub_map_btn {
+    height: auto;
+}
+.more_btn{
+    /*width: 740px;*/
+    width: 100%;
+}
+
+/*sub chugoku*/
+.btn_2 li{
+    width:50%;
+    line-height: 3em;
+}
+.btn_3 li{
+    width:33.33%;
+    line-height: 3em;
+
+}
+
+.btn_5 li{
+    width:20%;
+}
+.btn_6 li{
+    width:16.66%;
+}
+.btn_7 li{
+    width:14.28%;
+}
+
+
+/*sub index*/
+
+#sub_index_map .map_left, #sub_index_map .map_right {
+    height: auto;
+}
+
+	#sub_index_map .btn_2 li,
+	#sub_index_map .btn_3 li,
+	#sub_index_map .btn_4 li,
+	#sub_index_map .btn_5 li,
+	#sub_index_map .btn_6 li,
+	#sub_index_map .btn_7 li {
+		margin-right: -5px;
+	}
+}
+
+
+@media(max-width: 480px){
+	#sub_index_map .btn_6 li,
+	#sub_index_map .btn_7 li {
+	    margin-right: -5px;
+	}
+}
+
+@media all and (max-width:420px){
+	.btn_5 li {
+		font-size: 80%;
+	}
+}
+
+@media (min-width:993px){
+  .area-form {
+        min-height: 550px;
+}
+}
+
+
+@media(max-width: 992px) and (min-width: 768px){
+
+#jpmap{
+    height:420px;
+ }
+.area-text {
+    font-size: 0.6em;
+}
+.search-main-accordion{
+    padding:0;
+}
+#search .Sbtn li {
+    padding:7% !important;
+}
+#search .pink_area li{
+    padding:0 !important;
+}
+
+
+
+
+
+}
+
+@media(max-width: 768px){
+
+#jpmap{
+    height:420px;
+ }
+ .main-map{
+    padding:0;
+    padding-bottom: 65.25%;
+}
+.recommend-coupon iframe{
+	 width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+	left: 0;
+
+}
+
+.main-map iframe {
+    top: 0;
+
+}
+}
+@media(max-width: 670px){
+#masthead-sub .ad{
+    display: none;
+}
+#masthead-sub {
+    height: 65px;
+}
+.top-right-all{
+    margin-bottom: 2%;
+}
+ #jpmap{
+        height:380px;
+    }
+}
+@media(max-width:620px){
+    #jpmap{
+        height:350px;
+    }
+}
+
+@media(max-width:510px){
+    #jpmap{
+        height:265px;
+    }
+}
+
+@media(max-width:400px){
+    #jpmap{
+        height:205px;
+    }
+}
+@media(max-width:300px){
+    #jpmap{
+        height:100px;
+    }
+}
+
+
+.item1{ color: #db8705;} /* 100:restaurant */
+.item2{ color: #ac39cc;} /* 200:hotel */
+.item3{ color: #742314;} /* 300:shopping */
+.item4{ color: #f949f2;} /* 400:beauty */
+.item5{ color: #8abe53;} /* 750:leisure */
+.item6{ color: #4ba13a;} /* 600:car */
+.item7{ color: #278fd3;} /* 800:museum */
+.item8{ color: #8c8d8d;} /* 700:tour */
+.item9{ color: #d44929;} /* 899:pamphlet */
+.item10{ color: #13419b;} /* 900:his */
+.item11{ color: #0168b7;} /* 898:movie */
+.item12{ color: #11531a;} /* 990:other */
+
+.am-slider-custom li {
+    margin-right: 10px;
+}
+
+.coupon_slider_bg01.last {
+	margin-right: -8px;
+}

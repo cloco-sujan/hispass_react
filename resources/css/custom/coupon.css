@@ -1,0 +1,1178 @@
+#masthead{
+	padding-bottom: 1%;
+}
+#masthead-sub {
+    height: auto !important;
+    background-color: #DBDAD8;
+    background-image: url("../images-r/bird.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+	background-size:contain;
+    margin-top: 0px;
+    padding-top: 20px;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    font-weight: 500;
+    border: 0px solid #CCC;
+}
+#masthead-sub{
+	float:none;
+}
+#detail_top .brand_bg {
+    margin: 2% 0 !important;
+}
+
+.detail_top{
+	height: 175px !important;
+}
+.owl-carousel .owl-stage-outer {
+	height: auto;
+	max-height: 220px;
+}
+.detail_sub_box{
+	position: relative;
+	text-align: center;
+}
+.detail_sub_box .container{
+	position: relative;
+}
+#detail .soon{
+	font-size: 1em;
+	font-weight: 600;
+	display: inline-block;
+	padding-bottom: 0;
+	padding:top 1%;
+}
+#detail  .soon-label{
+	display: none;
+}
+#detail .soon-text{
+	letter-spacing: 4px;
+}
+.keyword_bg{
+	position: absolute;
+
+	top:-55px;
+	width: 95%;
+	text-align: center;
+
+}
+.keyword_search{
+	position: relative;
+	top:0px;
+	background-color: #ada89d;
+	height: 50px;
+	width:80%;
+	text-align: center;
+	margin:0 auto;
+
+}
+.keyword_search img{
+
+}
+.keyword_search input{
+	position: relative;
+	border: medium none;
+	border-radius: 35px;
+	padding: 0 1% 0 2%;
+	width: 96%;
+	height: 60%;
+	margin:0 auto;
+	top: 20%;
+	background-image: url(../images-r/icon_search.html);
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-right: 50px;
+	vertical-align: middle;
+
+}
+
+
+#keyword label{
+	position: absolute;
+	right: 32px;
+	top: 15px;
+
+}
+.keyword_search .fa-search:before {
+    content: "\f002";
+    color:#004098;
+    background-color: #f1e3b2;
+}
+
+.attention{
+	/*background: url('../images-r/detail_attention_bg.png');*/
+	background-color: #f1f1f1;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	padding:1%;
+	margin: 1% auto;
+}
+.attention_border{
+	border: 1px solid #DDD;
+	padding: 1% 1% 1% 1%;
+}
+.attention_icon{
+	/*display: inline-block;
+	width:5%;
+	text-align: left;
+	margin-right: 2%;*/
+	float:left;
+}
+.attention_icon img{
+	width: 100%;
+}
+.attention_title{
+	color:#e10b0b;
+}
+.attention_all_text{
+	display: inline-block;
+	width:100%;
+	text-align: left;
+	font-size: 1.1em;
+
+}
+
+#detail_top .brand_bg{
+	margin:0;
+	text-align: left;
+	padding-left: 10px;
+}
+
+#detail_top .attention_all_text a {
+	color:#1959b1;
+}
+
+#getBB_coupon .get_hosoku a {
+	color:#1959b1;
+}
+
+#getBB .get_hosoku a {
+	color:#1959b1;
+}
+
+#detail .s_info_text a {
+	color:#1959b1;
+}
+
+.coupon_location_text{
+	display: inline-block;
+	font-size: 14px;
+}
+.coupon_location_text::before{
+	content:url('../images-r/icon_location.png')
+}
+
+#detail{
+    font-family:  Verdana, "Arial ”メイリオ”", Meiryo, "”ヒラギノ角ゴPro W3″", "”Hiragino Kaku Gothic Pro”", "”ＭＳ Ｐゴシック”", sans-serif;
+    padding-bottom:2%;
+}
+
+#detail .category_text{
+	color:white;
+	margin-left: 1%;
+	padding: 10px;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 14px;
+
+}
+#detail .detail_title{
+	margin: 7px auto;
+	font-weight: bold;
+	border-bottom: solid 0px;
+	/*height: 47px;*/
+}
+.print_deadline {
+    margin: 3% 0;
+}
+
+#detail .detail_title_name {
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+    height: auto;
+}
+
+#detail .coupon_title_font{
+	margin: 1.5% 0;
+	/*margin-left: 2%;*/
+	display: inline-block;
+	word-wrap:break-word;
+
+}
+#detail .coupon_content{
+	text-align: left;
+    vertical-align: middle;
+    margin:2% 2%;
+}
+
+#detail .coupon_deadline {
+	margin-top: 2%;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: middle;
+    color: #e04a4a;
+    line-height: 1.5em;
+}
+#detail .panel-footer-form-up, #detail .panel-footer-form-down{
+	border:none;
+}
+
+
+#detail .deadline_title{
+	color:white;
+	background-color: #e04a4a;
+}
+.panel-footer-date-form.coupon_deadline {
+    text-align: center !important;
+    padding: 0 13%;
+    margin:0 !important;
+}
+
+.remain_num{
+	color:#e04a4a;
+	font-size: 1.4em;
+}
+#detail .deadline_bg_color{
+	background-color: #f4f9ff;
+	margin:1%;
+	padding: 2% 0 0 0;
+}
+#detail .deadline_bg{
+	background: url('../images-r/detail_date_bg.png');
+	padding:4%;
+
+}
+
+#detail .detail_slider{
+	margin-top: 5px;
+
+}
+#detail .item {
+	text-align:center;
+	max-height:210px;
+	list-style:none;
+}
+#detail .item img{
+
+    height:190px;
+}
+
+#detail_slide li{
+	display:inline-block;
+}
+
+
+
+
+
+#detail .detail_text{
+    line-height: 1.5em;
+    font-family:  Verdana, "Arial ”メイリオ”", Meiryo, "”ヒラギノ角ゴPro W3″", "”Hiragino Kaku Gothic Pro”", "”ＭＳ Ｐゴシック”", sans-serif;
+}
+
+
+
+.owl-theme .owl-controls{
+	margin-top: 5px;
+	text-align: center;
+}
+
+
+
+.owl-theme .owl-controls .owl-buttons div{
+	color: #FFF;
+	display: inline-block;
+	zoom: 1;
+	display: inline;/*IE7 life-saver */
+	margin: 5px;
+	padding: 3px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	background: #869791;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
+}
+
+.owl-item {
+    padding:0 5px 0 5px;
+}
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+	text-decoration: none;
+}
+
+/* Styling Pagination*/
+
+.owl-theme .owl-controls .owl-page{
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+}
+.owl-theme .owl-controls .owl-page span{
+	display: block;
+	width: 12px;
+	height: 12px;
+	margin: 5px 7px;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	background: #869791;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+}
+
+/* If PaginationNumbers is true */
+
+.owl-theme .owl-controls .owl-page span.owl-numbers{
+	height: auto;
+	width: auto;
+	color: #FFF;
+	padding: 2px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+/* preloading images-r/ */
+.owl-item.loading{
+	min-height: 150px;
+	background: url(AjaxLoader.html) no-repeat center center
+}
+
+#owl-demo .owl-item > div img {
+    display: block;
+    width: 100%;
+    height: auto;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-bottom:4px;
+}
+
+#owl-demo .owl-item > div{
+  background : #42bdc2;
+  text-align: center;
+  padding:50px 0px;
+  margin:3px;
+  color: white;
+  font-size:32px;
+  border:1px white;
+}
+
+.wrapper-with-margin{
+  margin:0px 50px;
+}
+
+
+.owl-theme .owl-controls .owl-buttons div {
+  position: absolute;
+}
+
+.owl-theme .owl-controls .owl-buttons .owl-prev{
+  left: -45px;
+  top: 55px;
+}
+
+.owl-theme .owl-controls .owl-buttons .owl-next{
+  right: -45px;
+  top: 55px;
+}
+
+
+.col-sm-12.coupon_detail {
+    padding: 0;
+}
+#detail .small_title{
+	margin-top: 2%;
+	text-align:left;
+	background-color: #dedede;
+	padding:1%;
+	font-weight: 700;
+
+}
+
+#detail .small_title::before{
+	content: url('../images-r/icon_bird.png') ;
+	margin-right: 5px;
+	margin-top:5%;
+
+}
+
+#detail .big_dialog{
+	/*background:url("../images-r/detail_title_box.png");
+	background-repeat: no-repeat;
+    background-position: center center;
+	background-size:contain;*/
+	background-color: #f3efd6;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	border:solid 2px #f1da6d;
+	margin: 2% auto;
+}
+
+
+#detail .dialog_text{
+
+	margin:35px auto;
+	text-align: center;
+	margin-bottom:35px;
+	font-size: 1.5em;
+    font-family:  Verdana, "Arial ”メイリオ”", Meiryo, "”ヒラギノ角ゴPro W3″", "”Hiragino Kaku Gothic Pro”", "”ＭＳ Ｐゴシック”", sans-serif;
+}
+
+
+#detail .btm_text{
+	margin-bottom: 2%;
+}
+
+#detail .shop_intro{
+	padding:2% 4px;
+	line-height: 1.3em;
+}
+
+#detail .detail_content{
+	word-wrap:break-word;
+    font-family:  Verdana, "Arial ”メイリオ”", Meiryo, "”ヒラギノ角ゴPro W3″", "”Hiragino Kaku Gothic Pro”", "”ＭＳ Ｐゴシック”", sans-serif;
+line-height: 1.5em;
+	font-size: 1em;
+	margin:2% auto;
+
+}
+
+#detail .btn_detail{
+	margin: 2% 10% 0 10%;
+	border:none;
+	color:white;
+	font-size: 1.2em;
+	padding:10px 10%;
+	border-radius: 5px;
+    font-family:  Verdana, "Arial ”メイリオ”", Meiryo, "”ヒラギノ角ゴPro W3″", "”Hiragino Kaku Gothic Pro”", "”ＭＳ Ｐゴシック”", sans-serif;
+	font-weight: 600;
+	width: 85%;
+    background-repeat: no-repeat;
+
+}
+
+.btn_detail_text:after{
+    content: "";
+    display: inline-block;
+   /* width: 25px;
+    height: 25px;*/
+    margin: 0px 6px 0px 4px;
+    float: none;
+    /* padding-top: 8px; */
+    position: relative;
+    top: 5px;
+}
+
+.btn_get{
+	/*background: url('../images-r/btn_get_ani.png');*/
+	/*background: url('../images-r/btn_get_ani2.jpg');*/
+	background: url('../images-r/btn_get_ani_bg.html');
+	background-color:#ee1414;
+	/*background-size: 100% 100%;*/
+	background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-bottom: 2px solid #a80000;
+}
+
+
+
+
+.btn_upgrade{
+	background: url('../images-r/btn_upgrade.html');
+}
+
+
+.btn_upgrade_text:after{
+	background:url('../images-r/icon_arrow_upgrade.html') no-repeat;
+}
+
+#detail .detail_shop{
+	background-color: #f3efd6;
+	margin: 0 auto;
+	padding-bottom: 4%;
+}
+.detail_remind{
+	margin:2% 0;
+	text-align: center;
+	color:#e04a4a;
+	font-weight: 600;
+	font-size: 20px;
+}
+.shop_info li{
+	background-color: #f2e1bc;
+	margin-bottom: 3px;
+}
+.s_info_title, .s_info_text{
+	display: inline-block;
+	padding: 1% 0 1% 1%;
+	vertical-align: center;
+}
+.s_info_text{
+	width:77%;
+	word-wrap: break-word;
+	line-height: 1.4em;
+}
+.s_info_title{
+	width:20%;
+	vertical-align: top;
+	line-height: 1.4em;
+}
+#detail .link-box{
+	/*display: flex;*/
+}
+#detail .only-tag{
+	width:98%;
+	/*margin: 0 1%;*/
+	display: inline-block;
+    /*padding: 2%;*/
+    text-align: center;
+}
+#detail .video-box{
+	border-color:#0071db;
+}
+#detail .pamphlet-box{
+	border-color:#009c84;
+}
+#detail .tag-image{
+	width:96px;
+	display: inline-block;
+	border-radius: 5px;
+	text-align: center;
+	margin-bottom: 2%;
+
+}
+#detail .tag-link{
+	width: 98%;
+    display: list-item;
+    text-align: left;
+    margin: 2% 0 0 0%;
+    word-wrap: break-word;
+
+}
+#detail .tag-link a {
+    color: #1959b1;
+    display: inline-block;
+    vertical-align: top;
+    margin: 6px 0 0 0;
+}
+.shop_map{
+	margin-top:1%;
+	text-align: center;
+}
+.job-text{
+	margin-top: 1%;
+}
+
+.search-menu{
+	text-align: center;
+	margin:1% auto;
+}
+.get_text{
+	 vertical-align:middle;
+	 display: inline-block;
+	 margin-top: -25px;
+	 font-size: 1.3em;
+}
+.tag_icon.tag-label {
+    display: inline-block;
+    vertical-align: bottom;
+}
+#main_menu{
+	margin:0 auto;
+	text-align: center;
+	height: 48px
+
+}
+ .flexnav {
+ 	width:100%;
+ }
+ .flexnav li {
+ 	background-color: #f4f3ef;
+ 	border:none;
+ }
+ .flexnav li a{
+ 	background-color: #f4f3ef;
+ 	border:none;
+ 	text-decoration:none;
+
+ }
+.flexnav .touch-button {
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 46px;
+    display: inline-block;
+    background: rgba(0, 0, 0, 0);
+    text-align: center;
+}
+.flexnav .touch-button .navicon {
+    position: relative;
+    top: 1.2em;
+    font-size: 12px;
+    color: #f6ab02;
+}
+
+.login-circle {
+    position: relative;
+    top: -11px;
+}
+
+.coupon-code{
+	color:#e04a4a;
+	text-align: center;
+	margin-bottom: 1%;
+}
+#print .dialog_text{
+	margin:1% 0;
+}
+
+#print .btn_get {
+	text-align:right;
+	float:right;
+    background: url('../images-r/btn_get.html');
+   	padding:2%;
+   	margin:3% 0 3% 1%;
+    border: none;
+    color: white;
+    font-size: 1em;
+    border-radius: 2px;
+    font-family:  Verdana, "Arial ”メイリオ”", Meiryo, "”ヒラギノ角ゴPro W3″", "”Hiragino Kaku Gothic Pro”", "”ＭＳ Ｐゴシック”", sans-serif;
+font-weight: 600;
+}
+#detail_slide .owl-dots .disabled{
+	display: block;
+}
+#detail_slide .owl-item{
+	height:210px;
+}
+#detail hr {
+    border-top:1px dotted #000;
+}
+#detail_slide .owl-stage{
+	margin: 0 auto;
+}
+#detail .only-shop{
+    /*margin-bottom: 2%;*/
+}
+.btn_dx_get_text:after{
+	display: none;
+}
+#detail .btn_dx_get{
+	border: solid 4px #4d9dc7;
+    padding: 1%;
+    text-align: center;
+}
+.dx_get_text{
+	color: #444444;
+}
+.dx_get_text a{
+	color: #df8820;
+	margin:0;
+}
+#detail .only-text{
+	padding-left: 5px;
+}
+@media screen and (max-width: 1024px){
+.index-google-map {
+	width: 100%;
+}
+}
+@media screen and (max-width: 992px) and (min-width:768px) {
+#detail .panel-footer-date-form.coupon_deadline {
+     padding: 0;
+}
+#detail .only-tag {
+    padding: 2% 5%;
+}
+}
+@media screen and (max-width: 520px){
+#detail .category_text{
+	width:100%;
+	word-wrap: break-word;
+	margin: 1% 0 2% 0;
+}
+#detail .coupon_location_text{
+	width:100%;
+}
+#detail .detail_title {
+	height: 88px;
+}
+
+
+}
+@media screen and (max-width: 458px){
+	#detail .detail_time{
+margin-top: 80px;
+}
+
+}
+/*mobile version */
+@media screen and (max-width:767px){
+.detail_time{
+margin-top: 62px;
+}
+
+#detail .col-sm-12{
+	margin-left:4%;
+	margin-right:4%;
+}
+#detail .detail_slide_image, #detail .detail_time{
+	margin-left:2%;
+	margin-right:2%;
+}
+#detail .detail_title_name{
+	text-align: center;
+}
+#detail .small_title{
+	margin-top:55px;
+}
+#detail .only-shop{
+    margin-top: 10%;
+}
+
+#detail .detail_title {
+	text-align: center;
+}
+#detail .only-tag {
+    width: 98%;
+	margin: 0 auto;
+	margin-bottom: 3%;
+	padding: 3% 2%;
+}
+#detail .link-box{
+	display: block;
+}
+
+}
+
+
+/* end of mobile version */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+#pricePlans #plans .plan {
+  width: 49%;
+  margin: 0 2% 20px 0;
+
+}
+
+#pricePlans #plans > li:nth-child(2n) {
+  margin-right: 0;
+}
+
+
+#detail .dialog_text{
+  font-size: 1.2em !important;
+}
+.s_info_title{
+  width:100%;
+  margin: 1% auto;
+ }
+ .s_info_text{
+	margin:0 auto;
+}
+
+#detail .row{
+	margin-left:0;
+	margin-right:0;
+
+}
+.get_text{
+	 margin-top: -25px;
+	 font-size: 1.1em;
+}
+
+
+}
+@media screen and (max-width: 992px){
+#detail .detail_title_name {
+	text-align: center;
+	margin: 1% auto;
+}
+#detail .location_cat{
+	text-align: center;
+}
+
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+#detail .coupon_title_font {
+	margin:1px 0;
+	font-size: 16px;
+}
+
+}
+
+@media screen and (max-width: 650px) {
+.get_text{
+	font-size: 0.9em;
+	display:inline-block;
+	width: 80%;
+}
+.btn_detail_text.btn_get_text {
+    margin-top: 1%;
+}
+
+}
+@media(max-width: 400px){
+#detail .detail_time {
+    margin-top: 28%;
+}
+#detail .coupon_title_font {
+    margin: 2%;
+
+}
+#detail .detail_title_name{
+	height: auto;
+}
+}
+@media(max-width: 500px){
+
+.s_info_title, .s_info_text{
+    width: 100%;
+    text-align: left;
+}
+.s_info_title{
+	font-weight: 700;
+    margin: 2% auto;
+}
+#detail .btn_detail{
+	padding:0;
+}
+#detail .only-shop {
+    margin-top: 15%;
+}
+.get_text{
+	font-size: 16px;
+}
+
+}
+@media(max-width: 445px){
+.attention_icon{
+	text-align: center;
+	width: 100%;
+}
+.attention_icon img {
+    width: 10%;
+}
+ .btn_detail_text.btn_get_text {
+    margin: 2% 0;
+}
+.get_text{
+	font-size: 15px;
+}
+
+
+
+}
+@media(max-width: 350px){
+	.get_text{
+		font-size: 14px;
+	}
+}
+@media(max-width: 330px){
+#detail .timesale-1-date{
+	width:71%;
+}
+}
+
+.coupon_contents {
+
+    font-size: 1.5em;
+    color: #f4ad1f;
+    position: relative;
+    text-align: center;
+/*
+    padding: 10px 0;
+*/
+    padding: 0px 0;
+ }
+
+
+.item1_bg{ background-color: #db8705;} /* restaurant */
+.item2_bg{ background-color: #ac39cc;} /* hotel */
+.item3_bg{ background-color: #742314;} /* shopping */
+.item4_bg{ background-color: #f949f2;} /* beauty */
+.item5_bg{ background-color: #8abe53;} /* leisure */
+.item6_bg{ background-color: #4ba13a;} /* car */
+.item7_bg{ background-color: #278fd3;} /* museum */
+.item8_bg{ background-color: #8c8d8d;} /* tour */
+.item9_bg{ background-color: #d44929;} /* pamphlet */
+.item10_bg{ background-color: #13419b;} /* his */
+.item11_bg{ background-color: #0168b7;} /* movie */
+.item12_bg{ background-color: #11531a;} /* other */
+
+
+/*--------------------
+OverWrite
+--------------------*/
+.owl-carousel .owl-stage-outer {
+	height: auto;
+}
+#detail_slide .owl-item{
+	height: auto;
+}
+#detail .item{
+	max-height:none;
+}
+#detail .item img{
+	height: 160px;
+	margin-bottom:5px;
+	width:auto;
+}
+#detail .item p{
+	max-width:240px;
+	font-size:.8em;
+}
+
+.icon-list .app-tag.tag-image-width {
+	width:50px;
+	text-align: center;
+}
+
+.app-icon-card-only {
+    background-color: #ffd700;
+    border: solid 1px #c7a800;
+}
+
+.all_shop_info {
+    height: 194px;
+    padding: 0;
+}
+
+.count_shop_Info {
+	padding: 2px 5px;
+	line-height: 1.5em;
+}
+
+.info-block {
+	background-color: #dbdad8;
+}
+
+.info-area {
+	display: inline-block;
+	background-color: #faf9f9;
+	border: 1px solid #a8a6a6;
+	padding: 10px;
+	margin: 10px auto;
+	line-height: 1.8em;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-box-shadow:0 5px 5px rgba(190, 189, 189, 0.4);
+	box-shadow:0 5px 5px rgba(190, 189, 189, 0.4);
+}
+
+/*************************************
+css編集 start
+**************************************/
+
+.info-area div{
+  font-size:14px;
+  color: red;;
+}
+
+.info-area a {
+  text-decoration: underline;
+	color: #434343;
+}
+
+.info-area a:visited,
+.info-area a:hover {
+  color: #434343;
+}
+
+.info-area h3 {
+	margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	display: inline-block;
+	padding: 5px;
+	background-color: #ec0903;
+	color: #fff;
+}
+
+.newinfo {
+	display: table-row;
+	position: relative;
+}
+
+.info-area.date,
+.info-area .date {
+	display: table-cell;
+	padding-left: 10px;
+	width: 200px;
+	vertical-align: top;
+
+}
+
+.info-area.info-content,
+.info-area .info-content {
+	display: table-cell;
+	padding-left: 20px;
+	width: 85%;
+	vertical-align: middle;
+}
+
+/* .info-title {
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+.info-title span {
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	display: inline;
+	padding: 5px;
+	background-color: #ec0903;
+	color: #fff;
+}
+
+.newinfo {
+	display: table-row;
+	position: relative;
+}
+
+.info-area.date,
+.info-area .date {
+	display: table-cell;
+	padding-left: 10px;
+	width: 200px;
+	vertical-align: top;
+
+}
+
+.info-area.info-content,
+.info-area .info-content {
+	display: table-cell;
+	padding-left: 20px;
+	width: 85%;
+	vertical-align: middle;
+} */
+
+/*************************************
+css編集 end
+**************************************/
+
+@media screen and (max-width: 992px) {
+	newinfo {
+		display: block;
+		font-size: .9em;
+	}
+
+	.info-area .date {
+		display: inline-block;
+		width: 100%;
+	}
+
+	.info-area .info-content {
+		display: inline-block;
+		width: 100%;
+		padding-left: 20px;
+	}
+}
+
+p.chuui {
+	color: #f00;
+	font-size: 14px;
+	line-height: 18px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+.card_visa {
+	display: inline-block;
+	background-image: url(../images-r/card_visa.png);
+	background-size:cover;
+	overflow: hidden;
+	width: 55px;
+	height: 34px;
+}
+
+.card_master {
+	display: inline-block;
+	background-image: url(../images-r/card_master.png);
+	background-size:cover;
+	overflow: hidden;
+	width: 55px;
+	height: 34px;
+}
+
+.card_amex {
+	display: inline-block;
+	background-image: url(../images-r/card_amex.png);
+	background-size:cover;
+	overflow: hidden;
+	width: 55px;
+	height: 34px;
+}
+
+.card_jcb {
+	display: inline-block;
+	background-image: url(../images-r/card_jcb.png);
+	background-size:cover;
+	overflow: hidden;
+	width: 55px;
+	height: 34px;
+}
+
+.card_dinners {
+	display: inline-block;
+	background-image: url(../images-r/card_diners.png);
+	background-size:cover;
+	overflow: hidden;
+	width: 55px;
+	height: 34px;
+}
+
+.card_ginren {
+	display: inline-block;
+	background-image: url(../images-r/card_union.png);
+	background-size:cover;
+	overflow: hidden;
+	width: 55px;
+	height: 34px;
+}
+
+@media screen and (max-width: 390px) {
+	.card_visa,
+	.card_master,
+	.card_amex,
+	.card_jcb,
+	.card_dinners,
+	.card_ginren {
+		width: 46px;
+   		background-size: 100%;
+   		background-repeat: no-repeat;
+	}
+
+	.card_master,
+	.card_amex,
+	.card_jcb,
+	.card_dinners,
+	.card_ginren {
+		margin-left:-2px;
+	}
+}
