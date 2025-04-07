@@ -1,16 +1,19 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
+import SideBar from "./common/SideBar";
+import TopNavBar from "./common/TopNavBar";
+import { BarChart2 } from "lucide-react";
 
 const Layout = ({ children }) => {
     return (
-        <div>
-            <nav>
-                <ul style={{ display: 'flex', listStyle: 'none', gap: '1rem' }}>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/about">About</Link></li>
-                </ul>
-            </nav>
-            <main>{children}</main>
+        <div className="flex h-screen bg-gray-100">
+            <SideBar />
+
+            <div className="flex flex-col flex-1 overflow-hidden">
+                <TopNavBar />
+
+                <main className=" p-3">{children}</main>
+            </div>
         </div>
     );
 };
