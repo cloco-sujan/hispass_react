@@ -11,16 +11,10 @@
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-
-    <!-- Styles -->
-    @vite('resources/sass/app.scss')
 </head>
 <body class="home page-template page-template-front-page page-template-front-page-php page page-id-83">
     <main>
         @yield('content')
     </main>
-    <!-- Scripts -->
-    @viteReactRefresh
-    @yield('footer_scripts')
 </body>
 </html>

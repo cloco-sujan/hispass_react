@@ -1,6 +1,14 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+
+Route::get('/login', [App\Http\Controllers\Webmaster\AuthController::class, 'showLoginForm']);
+Route::post('/login', [App\Http\Controllers\Webmaster\AuthController::class, 'login'])->name('login');
+Route::post('/logout', [App\Http\Controllers\Webmaster\AuthController::class, 'logout'])->name('logout');
+
+Route::post('/register', [App\Http\Controllers\Webmaster\AuthController::class, 'register'])->name('register');
+Route::get('/register', [App\Http\Controllers\Webmaster\AuthController::class, 'showRegistrationForm']);
+
 Route::get('/admin', function(){
     return view('app');
 })->where('any', '.*');
