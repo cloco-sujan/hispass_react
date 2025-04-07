@@ -13,17 +13,9 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- Styles -->
-    @vite('resources/css/app.css')
+    @vite('resources/sass/app.scss')
 </head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="{{ route('home') }}">Home</a></li>
-            </ul>
-        </nav>
-    </header>
-
+<body class="home page-template page-template-front-page page-template-front-page-php page page-id-83">
     <main>
         @yield('content')
     </main>
