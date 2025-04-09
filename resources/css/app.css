@@ -119,3 +119,34 @@
     background-repeat: no-repeat;
     background-position: contain;
 }
+
+.bg-map-pattern {
+    background-image: url("../../public/images-r/line-patter-front.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-size: cover; /* Ensure the image covers the entire element */
+}
+
+.backround-slider-map {
+    background-image: url("../../public/images-r/bg-sliders/btn_pink_bg.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-size: cover; /* Ensure the image covers the entire element */
+    @apply hover:cursor-pointer hover:bg-[url('../../public/images-r/bg-sliders/btn_pink_bg_selected.jpg')];
+}
+
+.backround-slider-city {
+    background-image: url("../../public/images-r/bg-sliders/btn_city_bg.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-size: cover; /* Ensure the image covers the entire element */
+    @apply hover:cursor-pointer hover:bg-[url('../../public/images-r/bg-sliders/btn_city_bg_selected.jpg')] text-center p-6 text-black;
+}
+
+.backround-slider-airport {
+    background-image: url("../../public/images-r/bg-sliders/btn_airport_bg.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-size: cover; /* Ensure the image covers the entire element */
+    @apply hover:cursor-pointer hover:bg-[url('../../public/images-r/bg-sliders/btn_airport_bg_selected.jpg')] text-center p-6 text-black;
+}
