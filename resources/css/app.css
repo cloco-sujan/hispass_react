@@ -151,6 +151,19 @@
     @apply hover:cursor-pointer hover:bg-[url('../../public/images-r/bg-sliders/btn_airport_bg_selected.jpg')] text-center p-6 text-black;
 }
 
+.bg-dolphine-img {
+}
+
+.bg-dolphine-img {
+    /* background-color: #17519f;
+    background-image: url("../../public/images-r/dolphine.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: bottom; */
+    @apply bg-[#17519f] bg-[url('../../public/images-r/dolphine.png')] bg-no-repeat bg-bottom bg-contain;
+}
+
 body {
     font-family: "Noto Sans JP", sans-serif;
     background-color: #f5f5f5;

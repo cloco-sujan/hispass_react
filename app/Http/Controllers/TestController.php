@@ -20,4 +20,8 @@ class TestController extends Controller
     {
         return view('pages.term');
     }
+    public function coupon()
+    {
+        return view('pages.coupon-detail');
+    }
 }
