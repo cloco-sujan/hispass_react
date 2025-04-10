@@ -45,7 +45,7 @@
 
     <header class=" bg-[#003a8a] sticky top-0 flex pt-3 text-white flex-col header-custom">
         <div class=" flex justify-center w-full">
-            <div class="custom-container flex justify-end gap-6 pr-5">
+            <div class="custom-container flex justify-center md:justify-end gap-6 pr-5">
                 <div class="btn bg-slate-950 rounded-2xl flex items-center gap-1 p-0.5 px-2.5 twitter-icon-text">
                     <i class="fa-brands fa-x-twitter"></i>
                     ポスト
@@ -60,18 +60,22 @@
         </div>
     </header>
 
-    <div class=" bg-[#f3f0ea] flex justify-center">
-        <div class="custom-container flex pt-3 pb-1.5 ">
-            <div class=" pr-5">
-                <img src="images-r/logo.png " />
+    <div class="bg-[#f3f0ea] flex justify-center">
+        <div class="custom-container flex flex-col md:flex-row pt-3 pb-1.5">
+            {{-- first div --}}
+            <div class="pr-5 flex justify-center md:justify-start">
+                <img src="images-r/logo.png" />
             </div>
-            <div class=" gap-0 flex bg-catdognav w-[800px] flex-col text-left ">
-                <div class="flex justify-end seachbar-custom pt-2 pr-10">
-                    <input type=" text" placeholder="キーワードから検索する"
-                        class=" bg-gray-50 rounded-l-2xl h-10 placeholder-gray-300 w-52" />
+
+            {{-- second div --}}
+            <div class="gap-0 flex bg-catdognav w-full md:w-[800px] flex-col text-left mt-3 md:mt-0">
+                <div class="flex justify-center md:justify-end seachbar-custom pt-2 md:pr-10">
+                    <input type="text" placeholder="キーワードから検索する"
+                        class="bg-gray-50 rounded-l-2xl h-10 placeholder-gray-300 w-96 md:w-52" />
                     <button
                         class="bg-[#f1e3b2] h-10 min-w-12 rounded-r-lg text-gray-600 flex justify-center items-center"
                         onclick="document.searchform_2.submit();">
+                        <!-- SVG search icon -->
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
                             <g fill="none" fill-rule="evenodd">
                                 <path
@@ -82,18 +86,18 @@
                         </svg>
                     </button>
                 </div>
-                <div class=" flex justify-end pt-2 text-[#004098] items-baseline text-sm pr-12">
+                <div class="flex justify-end pt-2 text-[#004098] items-baseline text-sm pr-12">
                     掲載希望の施設様&nbsp;
-                    <img src="images-r/jp_arrow.gif" class=" h-3"
+                    <img src="images-r/jp_arrow.gif" class="h-3"
                         data-src="https://his-coupon.com/wp-content/themes/h-coupon/hcw/images-r/jp_arrow.gif"
-                        loading="lazy" class="lazyload">
-
+                        loading="lazy">
                 </div>
             </div>
         </div>
     </div>
 
-    <div class=" background-coupon-home flex justify-center">
+
+    <div class=" background-coupon-home  justify-center flex">
         <div class=" custom-container pt-5">
             <div class="rounded p-3 text-[#434343] bg-[#faf9f9] border">
                 <span class=" bg-red-600 p-1 pb-2 rounded text-white font-bold mt-1">
@@ -111,25 +115,25 @@
             </div>
 
             <div class="py-6  pb-26">
-                <div class="flex space-x-2">
+                <div class="hidden md:flex space-x-2">
                     <div class="flex-1 text-center p-4 bg-gray-200 coupon_slider_bg01">
-                        <div class=" text-[#0e90d2] text-lg font-extrabold leading-7">
+                        <div class=" text-[#0e90d2] text-sm xl:text-lg font-extrabold leading-7">
                             <p>動物園･水族館<br>
                                 テーマパークはココ！</p>
                         </div>
                     </div>
                     <div class="flex-1 text-center p-4 bg-gray-200 coupon_slider_bg02">
-                        <div class=" text-[#0e90d2] text-lg font-extrabold leading-7">
+                        <div class=" text-[#0e90d2] text-sm xl:text-lg  font-extrabold leading-7">
                             <p>美術館･博物館<br>クーポンはコチラ！!</p>
                         </div>
                     </div>
                     <div class="flex-1 text-center p-4 bg-gray-200 coupon_slider_bg03">
-                        <div class=" text-[#0e90d2] text-lg font-extrabold leading-7">
+                        <div class=" text-[#0e90d2] text-sm xl:text-lg  font-extrabold leading-7">
                             <p>着物・Wifi</br>レンタルプランはコチラ</< /p>
                         </div>
                     </div>
                     <div class="flex-1 text-center p-4 bg-gray-200 coupon_slider_bg01">
-                        <div class=" text-[#0e90d2] text-lg font-extrabold leading-7">
+                        <div class=" text-[#0e90d2] text-sm xl:text-lg  font-extrabold leading-7">
                             <p>人気温泉施設</br>クーポンはコチラ！!</p>
                         </div>
                     </div>
@@ -144,9 +148,10 @@
 
 
     <div class="flex bg-map-pattern justify-center">
-        <div class="custom-container border-12 border-[#93b8e8] bg-[#eaf2f7] p-1 flex -mt-20  h-max p-3">
+        <div
+            class="custom-container border-12 border-[#93b8e8] bg-[#eaf2f7] flex flex-col md:flex-row -mt-20   h-max p-3 min-w-full md:min-w-fit">
 
-            <div id="jpmap" class=" w-[600px] py-18 px-4 flex-2/3">
+            <div class="w-full py-18 px-4 flex md:flex-3/4">
                 <svg height="100%" version="1.1" width="100%" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink"
                     style="overflow: hidden; position: relative; left: -0.5px; top: -0.9375px;" viewBox="0 0 615 370"
@@ -730,8 +735,8 @@
                         style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); stroke-opacity: 1;"></path>
                 </svg>
             </div>
-            <div class=" bg-[#f7e9f9] flex-1/3">
-                <div id="accordion" class="w-full max-w-md mx-auto">
+            <div class=" bg-[#f7e9f9] md:flex-1/4 ">
+                <div id="accordion" class="w-full  ">
                     <div class="border-b border-gray-200 ">
                         <button
                             class="accordion-header w-full p-2 hover:cursor-pointer bg-[#f6d9d9] border border-[#dd8585] border-dashed rounded font-extrabold text-[#9d3636]">
@@ -949,7 +954,7 @@
         <div class=" custom-container pt-5 ">
 
             <div class=" bg-[#a2cbc1] border border-[#d3faee] border-dashed p-2 mb-5">
-                <div class="grid grid-cols-5">
+                <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6">
                     <div class="button_all">レジャー・スキー場
                     </div>
                     <div class="button_all">博物館・美術館
@@ -970,6 +975,10 @@
                     </div>
                     <div class="button_all">ンフレット・チラシ
                     </div>
+                    <div class="button_all">ンフレット・チラシ
+                    </div>
+                    <div class="button_all">ンフレット・チラシ
+                    </div>
                 </div>
 
 
@@ -980,7 +989,7 @@
                 クーポン一覧
             </div>
 
-            <div class="grid grid-cols-3 gap-7 mt-5 mb-10 px-3">
+            <div class="grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 gap-7 mt-5 mb-10 px-3">
                 <div class="flex-1 text-center  bg-white rounded ">
                     <div class="">
                         <div class="flex flex-row justify-between p-4">
@@ -1141,7 +1150,7 @@
                         ▼アイコンの説明
                     </div>
                     <div class=" text-sm">
-                        <div class=" flex gap-10 mt-5">
+                        <div class=" flex flex-col md:flex-row  md:gap-10 mt-5">
                             <div class=" flex flex-row gap-4">
                                 <img src="images-r/printer-icon.png"
                                     class="my-3 bg-orange-400 border border-[#c7a800] rounded p-0.5" />
@@ -1162,7 +1171,6 @@
                                 <img src="images-r/coupon-image.png"
                                     class="my-3 bg-[#ffd700] border border-[#c7a800] rounded p-0.5" />
                                 <div class="flex items-center justify-center w-full min-h-full">
-
                                     カード利用可
                                 </div>
                             </div>
@@ -1176,7 +1184,7 @@
         </div>
     </div>
 
-    <div class=" bg-[#4c84d0] py-8 pt-18  flex justify-center">
+    <div class=" bg-[#4c84d0] py-8 md:pt-18  flex justify-center">
         <div class=" custom-container text-center text-xs text-white px-10 text-wrap">
             会社案内・IR情報・リリース | 採用情報 | 営業所案内 | 旅行業約款・条件書 | 個人情報保護方針 | ご利用規約 | 利用ガイド | お問い合わせ | リンクについて
             <br>アクティビティジャパン
@@ -1185,17 +1193,17 @@
 
     <div class=" bg-[#004097] flex justify-center">
         <div class=" custom-container text-center text-sm text-white px-5">
-            <div class=" flex justify-between items-center">
+            <div class=" flex flex-col md:flex-row justify-between items-center">
                 <div>
-                    <div class=" flex flex-row gap-4">
+                    <div class=" flex flex-col md:flex-row gap-4">
                         <img src="images-r/coupon-logo-img.png"
                             class="my-3 bg-orange-400 border border-[#c7a800] rounded p-0.5 h-12" />
-                        <div class="flex items-center justify-center w-full min-h-full">
+                        <div class="flex items-center justify-center w-full min-h-full -mt-3 md:-mt-0">
                             お得なクーポンをGET
                         </div>
                     </div>
                 </div>
-                <div>
+                <div class=" my-5 md:my-0">
                     Copyright © HIS Co.,Ltd. All Rights Reserved.
                 </div>
             </div>

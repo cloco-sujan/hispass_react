@@ -23,7 +23,7 @@
 }
 
 .custom-container {
-    @apply w-[53%];
+    @apply md:w-[94%] lg:w-[80%] xl:w-[53%];
 }
 
 .seachbar-custom input::placeholder {
