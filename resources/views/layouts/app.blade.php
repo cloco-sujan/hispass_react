@@ -19,26 +19,6 @@
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
-
-        body {
-            font-family: 'Noto Sans JP', sans-serif;
-            background-color: #f5f5f5;
-        }
-
-        .coupon-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 15px;
-        }
-
-        .category-tabs {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 1px;
-        }
-    </style>
 </head>
 
 <body>
@@ -64,7 +44,7 @@
         <div class="custom-container flex flex-col md:flex-row pt-3 pb-1.5">
             {{-- first div --}}
             <div class="pr-5 flex justify-center md:justify-start">
-                <img src="images-r/logo.png" />
+                <img src="images-r/logo.png" class=" h-max" />
             </div>
 
             {{-- second div --}}

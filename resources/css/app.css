@@ -150,3 +150,20 @@
     background-size: cover; /* Ensure the image covers the entire element */
     @apply hover:cursor-pointer hover:bg-[url('../../public/images-r/bg-sliders/btn_airport_bg_selected.jpg')] text-center p-6 text-black;
 }
+
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    background-color: #f5f5f5;
+}
+
+.coupon-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 15px;
+}
+
+.category-tabs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+}
