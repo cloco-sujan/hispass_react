@@ -15,8 +15,9 @@ class TestController extends Controller
         ];
         return view('pages.home', compact('meta'));
     }
-    public function show()
+    public function show() {}
+    public function term()
     {
-
+        return view('pages.term');
     }
 }
