@@ -24,4 +24,9 @@ class TestController extends Controller
     {
         return view('pages.coupon-detail');
     }
+
+    public function details()
+    {
+        return view('pages.coupon-print-page');
+    }
 }
