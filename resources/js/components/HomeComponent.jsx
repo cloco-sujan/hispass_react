@@ -1,15 +1,15 @@
-import { createRoot } from 'react-dom/client';
+import { createRoot } from "react-dom/client";
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 function HomeComponent() {
     const [features, setFeatures] = useState([]);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        fetch('/api/home-data')
-            .then(response => response.json())
-            .then(data => {
+        fetch("/api/home-data")
+            .then((response) => response.json())
+            .then((data) => {
                 setFeatures(data.features);
                 setLoading(false);
             });
@@ -33,7 +33,7 @@ function HomeComponent() {
         </div>
     );
 }
-if (document.getElementById('home-react')) {
-    const root = createRoot(document.getElementById('home-react'));
+if (document.getElementById("home-react")) {
+    const root = createRoot(document.getElementById("home-react"));
     root.render(<HomeComponent />);
 }
