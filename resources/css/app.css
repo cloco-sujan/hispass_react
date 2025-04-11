@@ -180,3 +180,8 @@ body {
     grid-template-columns: repeat(4, 1fr);
     gap: 1px;
 }
+
+.cupon-div-bg {
+    background-image: url("../../public/images-r/coupon-bg.png");
+    background-repeat: repeat;
+}
