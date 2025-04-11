@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';
@@ -6,6 +6,182 @@
 @source '../**/*.js';
 
 @theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-sans: "Instrument Sans", ui-sans-serif, system-ui, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji";
+}
+
+.body {
+    font-family: "'微軟正黑體' ,Arial, Helvetica, sans-serif";
+}
+
+.bg-catdognav {
+    background-image: url("../../public/images-r/animal.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    @apply h-24;
+}
+
+.custom-container {
+    @apply md:w-[94%] lg:w-[80%] xl:w-[53%];
+}
+
+.seachbar-custom input::placeholder {
+    @apply text-xs font-bold;
+}
+
+.twitter-icon-text {
+    font-size: 12px;
+}
+
+.header-custom {
+    background-color: #003b8c;
+    background-image: url("../../public/images-r/header_bg.png");
+    color: #ddd;
+    border-width: 0;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15);
+    border-bottom-width: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 99;
+}
+
+.background-coupon-home {
+    background-color: #dbdad8;
+    background-image: url("../../public/images-r/bird.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: bottom;
+}
+
+.coupon_slider_bg01 {
+    background-image: url("../../public/images-r/slider-coupon_01.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 90px;
+}
+
+.coupon_slider_bg02 {
+    background-image: url("../../public/images-r/slider-coupon_02.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 90px;
+}
+
+.coupon_slider_bg03 {
+    background-image: url("../../public/images-r/slider-coupon_03.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 90px;
+}
+
+.coupon-list-title {
+    width: 100%;
+    height: 53px;
+    background: url("../../public/images-r/section_title02_bg.gif") no-repeat;
+}
+
+.button_all,
+.button_leisure,
+.button_museum,
+.button_beauty,
+.button_car,
+.button_op,
+.button_restaurant,
+.button_shopping,
+.button_hotel,
+.button_etc,
+.button_his,
+.button_coupon {
+    font-family: Verdana, "Arial ”メイリオ”", Meiryo, "”ヒラギノ角ゴPro W3″",
+        "”Hiragino Kaku Gothic Pro”", "”ＭＳ Ｐゴシック”", sans-serif;
+    margin: 0px;
+    color: #000;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: contain;
+    /*padding: 10% 0;*/
+}
+.button_all {
+    /*background-image: url('../images-r/btn_all.jpg');*/
+    background-image: url("../../public/images-r/button_all.jpg");
+    @apply py-3;
+}
+
+.button_all :hover {
+    background-image: url("../../public/images-r/button_all_on.html");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: contain;
+}
+
+.bg-map-pattern {
+    background-image: url("../../public/images-r/line-patter-front.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-size: cover; /* Ensure the image covers the entire element */
+}
+
+.backround-slider-map {
+    background-image: url("../../public/images-r/bg-sliders/btn_pink_bg.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-size: cover; /* Ensure the image covers the entire element */
+    @apply hover:cursor-pointer hover:bg-[url('../../public/images-r/bg-sliders/btn_pink_bg_selected.jpg')];
+}
+
+.backround-slider-city {
+    background-image: url("../../public/images-r/bg-sliders/btn_city_bg.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-size: cover; /* Ensure the image covers the entire element */
+    @apply hover:cursor-pointer hover:bg-[url('../../public/images-r/bg-sliders/btn_city_bg_selected.jpg')] text-center p-6 text-black;
+}
+
+.backround-slider-airport {
+    background-image: url("../../public/images-r/bg-sliders/btn_airport_bg.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-size: cover; /* Ensure the image covers the entire element */
+    @apply hover:cursor-pointer hover:bg-[url('../../public/images-r/bg-sliders/btn_airport_bg_selected.jpg')] text-center p-6 text-black;
+}
+
+.bg-dolphine-img {
+}
+
+.bg-dolphine-img {
+    /* background-color: #17519f;
+    background-image: url("../../public/images-r/dolphine.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: bottom; */
+    @apply bg-[#17519f] bg-[url('../../public/images-r/dolphine.png')] bg-no-repeat bg-bottom bg-contain;
+}
+
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    background-color: #f5f5f5;
+}
+
+.coupon-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 15px;
+}
+
+.category-tabs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+}
+
+.cupon-div-bg {
+    background-image: url("../../public/images-r/coupon-bg.png");
+    background-repeat: repeat;
 }

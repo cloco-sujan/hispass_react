@@ -8,19 +8,13 @@ export default defineConfig({
         laravel({
             input: [
                 "resources/css/app.css",
-                "resources/sass/app.scss",
                 "resources/js/app.js",
-                "resources/js/app.jsx",
                 "resources/js/components/HomeComponent.jsx",
+                // 'resources/js/pages/about.js',
             ],
             refresh: true,
         }),
-        react(),
         tailwindcss(),
+        react(),
     ],
-    resolve: {
-        alias: {
-            "@": "resources/js",
-        },
-    },
 });

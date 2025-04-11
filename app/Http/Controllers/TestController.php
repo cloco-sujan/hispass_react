@@ -15,14 +15,13 @@ class TestController extends Controller
         ];
         return view('pages.home', compact('meta'));
     }
-    public function show()
+    public function show() {}
+    public function term()
     {
-        $meta = [
-            'title' => 'Home Page - Laravel with React',
-            'description' => 'Welcome to our Laravel application with React components',
-            'keywords' => 'laravel, react, web development'
-        ];
-        return view('pages.show', compact('meta'));
-
+        return view('pages.term');
+    }
+    public function coupon()
+    {
+        return view('pages.coupon-detail');
     }
 }

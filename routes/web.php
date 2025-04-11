@@ -16,4 +16,5 @@ Route::get('/api/home-data', function () {
     ]);
 });
 Route::get('/', [App\Http\Controllers\TestController::class, 'index'])->name('home');
-Route::get('/show', [App\Http\Controllers\TestController::class, 'show'])->name('show');
+Route::get('/term', [App\Http\Controllers\TestController::class, 'term'])->name('term');
+Route::get('/coupon', [App\Http\Controllers\TestController::class, 'coupon'])->name('coupon');
